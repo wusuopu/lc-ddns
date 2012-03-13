@@ -109,7 +109,8 @@ def Config():
     print("\nline list:")
     i = 0
     for line in lines:
-        print("[%d]%s\t" % (i+1, line)),
+        l = unicode(line, 'utf-8') if isinstance(line, unicode)==False else line
+        print("[%d]%s\t" % (i+1, l)),
         i = i+1
         if i%4 == 0:
             print("")
