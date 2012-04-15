@@ -4,12 +4,13 @@ lc-ddns
 
 info
 ----
-    Version 1.0
+    Version 1.1
     Author LongChangjin
     E-mail admin@longchangjin.cn
 
 使用指南
 -------
+首先需要有dnspod的帐号，没有的请注册一个
 1. 配置用户信息和域名信息
     python ddns.py config
 2. 启动脚本
